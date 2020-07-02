@@ -1,9 +1,5 @@
-# udacity-SagemakerDeployment
-Original Repo: [sagemaker-deployment](https://github.com/hjlopes/sagemaker-sentiment-analysis)  
+# SageMaker Deployment Project
 
+The notebook and Python files provided here, once completed, result in a simple web app which interacts with a deployed recurrent neural network performing sentiment analysis on movie reviews. This project assumes some familiarity with SageMaker, the mini-project, Sentiment Analysis using XGBoost, should provide enough background.
 
-Objective: deploy a sentiment analysis model using RNN in AWS SageMaker. Architecure makes use of AWS API Gateway and AWS Lambda.
-UX: User inputs a film review into a simple web app and receives a positive or negative review classification.
-
-
-In the final architecture AWS API Gateway and AWS Lambda functions is used as well. The application architecture diagram is:
+Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
